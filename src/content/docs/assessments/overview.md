@@ -1,6 +1,6 @@
 ---
 title: Take-home assessments overview
-description: How take-home coding assessments work in Typelets, end to end.
+description: How take-home coding assessments work in Typelets, including Past assessments and the Candidate Dashboard.
 ---
 
 A take-home assessment is an interview a candidate completes on their own time,
@@ -35,15 +35,43 @@ and you review afterward.
    recording, read the AI transcript, and change any autograded chip you
    disagree with. See [Reviewing
    submissions](/assessments/reviewing-submissions/) and
-   [Grading](/assessments/grading/).
+   [Grading](/assessments/grading/). The source stays under **Assessments**
+   until every accepted clone is submitted and graded, then it moves to
+   **Past assessments**.
 
 ## Source assessment vs candidate clone
 
 The assessment you build and invite from is the **source**. When a candidate
-accepts, Typelets makes them a private **clone** of it to work in. You never have
-to manage those clones directly: the source assessment is where you send
-invites, watch submission states, and review every candidate's work. Clones are
-hidden from your workspace list and exist only as submissions of their source.
+accepts, Typelets makes them a private **clone** of it to work in. Reviewers
+never see those clones in the workspace switcher: the source is where you send
+invites, watch submission states, and review every candidate's work. Candidates
+see only their own clone.
+
+## Finding assessments
+
+The workspace switcher groups take-homes the same way it groups live interviews.
+
+- **Assessments** - source assessments that still have work in flight. A
+  candidate has not started, is in progress, or has submitted but not every
+  accepted clone is graded yet.
+- **Past assessments** - muted, same pattern as **Past interviews**. A source
+  moves here once every accepted clone is submitted **and** graded (autograde
+  auto-apply or a human score). Opening one shows a **Past assessment** badge
+  in the header.
+
+Candidates see their own submitted clone under **Past assessments** as soon as
+they submit. That is earlier than the source moves for reviewers. See
+[Reviewing submissions](/assessments/reviewing-submissions/) for the reviewer
+rule.
+
+## Candidate Dashboard
+
+After sign-in, **Candidate Dashboard** is in the app menu - no reload. Hiring
+users use it to see candidates across take-homes. Candidates use it to find
+their own assessments. Once a grade is present, the dashboard treats that
+submission as scored; it does not stay on Awaiting review or Unscored.
+Candidates still never see the numbers. See [The candidate
+experience](/assessments/candidate-experience/#candidate-dashboard).
 
 ## What candidates can and cannot see
 

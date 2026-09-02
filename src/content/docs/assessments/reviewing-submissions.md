@@ -1,14 +1,36 @@
 ---
 title: Reviewing submissions
-description: Review a candidate's submitted files, session recording, and AI transcript.
+description: Review a candidate's submitted files, session recording, and AI transcript. Finished sources live under Past assessments.
 ---
 
-You review every candidate from the **source** assessment. As candidates submit,
-their submissions appear in your sidebar; opening one gives you the submitted
-files, the session recording, and the AI usage transcript. File review is
-read-only: nothing you do changes what the candidate submitted. Scores are
-[autograded](/assessments/grading/) onto the clone after submit; you can edit
-those chips without changing the files.
+You review every candidate from the **source** assessment. Reviewers never see
+candidate clones in the workspace switcher; open the source and work from its
+sidebar. As candidates submit, their submissions appear there; opening one gives
+you the submitted files, the session recording, and the AI usage transcript.
+File review is read-only: nothing you do changes what the candidate submitted.
+Scores are [autograded](/assessments/grading/) onto the clone after submit; you
+can edit those chips without changing the files.
+
+## Where the source lives
+
+Find the source in the workspace switcher:
+
+- **Assessments** - at least one accepted clone is not started, in progress, or
+  submitted but not yet graded.
+- **Past assessments** - muted, same pattern as **Past interviews**. The source
+  moves here once **every accepted clone** is submitted **and** graded
+  (autograde auto-apply or a human score). Submit alone is not enough.
+
+Opening a finished source shows a **Past assessment** badge in the header.
+Finished live interviews use **Past interviews** and a **Past interview** badge
+the same way.
+
+An invite that was never accepted does not keep the source under Assessments.
+Candidates see their own clone under **Past assessments** as soon as they
+submit, even before a grade lands.
+
+You review from the source sidebar either way. See [Take-home assessments
+overview](/assessments/overview/#finding-assessments).
 
 ## Browsing the submitted files
 

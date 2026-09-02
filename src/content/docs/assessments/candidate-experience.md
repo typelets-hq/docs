@@ -1,11 +1,28 @@
 ---
 title: The candidate experience
-description: What a candidate does in a take-home - the timer, the AI assistant, and submitting.
+description: What a candidate does in a take-home - the Candidate Dashboard, the timer, the AI assistant, and submitting.
 ---
 
 Once a candidate has [accepted an invite](/assessments/inviting-candidates/),
 they have a private workspace with the problem applied. This is what the
 assessment looks like from their side.
+
+## Candidate Dashboard
+
+After sign-in, **Candidate Dashboard** is in the app menu - no reload. Candidates
+use it to find their take-homes. Hiring users see the same menu item and use it
+to follow candidates across assessments.
+
+On the dashboard, a take-home is not started, in progress, or submitted. Once a
+grade is present - [autograde](/assessments/grading/) or a human score - the
+dashboard treats that submission as scored. It does not stay on Awaiting review
+or Unscored. Candidates still never see the rubric or the numbers; hiring users
+can open the source to read the scorecard.
+
+The candidate's own clone also appears in the workspace switcher. After they
+submit, it groups under **Past assessments** and the open workspace shows a
+**Past assessment** badge. That is earlier than the source moves for reviewers
+(every accepted clone submitted **and** graded).
 
 ## Starting the assessment
 
@@ -55,6 +72,8 @@ at the deadline). On submit:
 - [Autograde](/assessments/grading/) runs in the background. The candidate still
   never sees the rubric or scores.
 
-The candidate cannot reopen or keep editing a submitted assessment.
+The candidate cannot reopen or keep editing a submitted assessment. Their clone
+moves to **Past assessments** in the workspace switcher; they can still open it
+read-only from there or from the Candidate Dashboard.
 
 Next: [Reviewing submissions](/assessments/reviewing-submissions/).

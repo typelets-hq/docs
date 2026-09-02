@@ -31,16 +31,29 @@ rather than silently failing.
 
 ## Tracking candidate state
 
-On the source assessment, your sidebar lists every candidate and their current
-state:
+On the source assessment, your sidebar lists every **accepted** candidate and
+their current state. An invite that has not been accepted yet is not in this
+list.
 
 - **Not started** - the invite was accepted, but the candidate has not clicked
   Start yet.
 - **In progress** - the candidate has started and the clock is running.
-- **Submitted** - the candidate has submitted (or a timed assessment auto-submitted).
+- **Submitted** - the candidate has submitted (or a timed assessment
+  auto-submitted). A due-date submission after the deadline is still Submitted
+  and [flagged late](/assessments/candidate-experience/#timed-vs-due-date).
+
+Those three chips are the source-sidebar states. A grade (autograde or a human
+score) does not add a fourth chip here. After every accepted clone is submitted
+and graded, the **source** itself moves to **Past assessments** in the workspace
+switcher - see [Reviewing
+submissions](/assessments/reviewing-submissions/#where-the-source-lives).
 
 The list refreshes when you return to the tab or use the refresh control, so you
 see a new acceptance or a state change without reloading the page.
+
+Hiring users also see these candidates on the [Candidate
+Dashboard](/assessments/candidate-experience/#candidate-dashboard) in the app
+menu, across take-homes, without opening each source.
 
 ## Roles
 
