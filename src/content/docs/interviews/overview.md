@@ -21,6 +21,11 @@ time, the session is recorded, and the result is scored against a rubric.
 6. **End the interview** - the candidate loses access immediately.
 7. **Score** the candidate against the rubric, and review the recording with your team.
 
+Finished interviews sit under **Past interviews** in the workspace switcher
+(muted), with a **Past interview** header badge when that workspace is open.
+Take-homes use the same pattern as **Past assessments**. See [Finding
+assessments](/assessments/overview/#finding-assessments).
+
 ## What candidates can and cannot see
 
 Candidates see the prompt, their own files, and public test cases. They never

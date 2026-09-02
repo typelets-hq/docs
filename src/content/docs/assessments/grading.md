@@ -91,8 +91,10 @@ is the point of letting them use AI in the first place.
 - **owner / admin / interviewer** on the source assessment can view and edit
   scores on each clone.
 - **Candidates never see the rubric or scores**, including after autograde.
-  Once a grade is present, their dashboard treats the submission as scored
-  without showing the numbers.
+  Once a grade is present, the [Candidate
+  Dashboard](/assessments/candidate-experience/#candidate-dashboard) treats the
+  submission as scored without showing the numbers. It does not stay on
+  Awaiting review or Unscored.
 
 ## Driving scoring programmatically
 

@@ -48,8 +48,20 @@ edit every chip afterward. Candidates never see the rubric or the numbers.
 ## What can a candidate see?
 
 The prompt, their own files, and public test cases. Never the rubric, hidden
-test expected-output, the reference solution, or scores. When the interview
-ends, the candidate loses access. See [Sharing & roles](/collaboration/sharing-and-roles/).
+test expected-output, the reference solution, or scores. When a live interview
+ends, the candidate loses access. Take-home candidates find their work on the
+[Candidate Dashboard](/assessments/candidate-experience/#candidate-dashboard)
+in the app menu; after autograde that item is treated as scored, still without
+numbers. See [Sharing & roles](/collaboration/sharing-and-roles/).
+
+## Where do finished take-homes go?
+
+In the workspace switcher, under **Past assessments** (muted, same pattern as
+**Past interviews**). For reviewers, the **source** moves there once every
+accepted clone is submitted **and** graded - submit alone is not enough.
+Candidates see their own clone under Past assessments as soon as they submit.
+See [Reviewing
+submissions](/assessments/reviewing-submissions/#where-the-source-lives).
 
 ## Is hosting available everywhere?
 
