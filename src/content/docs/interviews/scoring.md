@@ -1,12 +1,15 @@
 ---
 title: Scoring
-description: Score a candidate against a structured rubric.
+description: Score a live interview against a structured rubric. Take-homes autograde separately.
 ---
 
 Typelets lets you score a candidate against the problem's rubric criteria,
 rather than relying on a single gut-feel verdict.
 
-## How scoring works
+Live interviews and take-homes share the same rubric shape (named criteria, 1-5
+chips, notes). They do **not** share the same write path.
+
+## Live interviews
 
 A problem defines named **criteria** (for example "Correctness",
 "Communication", "Code quality"). After the interview, the interviewer scores
@@ -14,10 +17,15 @@ each criterion on a **1-5 scale** with optional notes, plus an overall notes
 field. Scores are saved on the workspace and visible only to interviewer-side
 roles.
 
-Scoring is **entered by a human** - the score is the interviewer's judgment.
-For take-home assessments, [Draft with AI](/assessments/grading/) can propose a
-first pass of scores and notes that you then edit, but it never writes the final
-score for you.
+For a live interview, scoring is **entered by a human** - the score is the
+interviewer's judgment. Nothing auto-applies chips when you end the session.
+
+## Take-home assessments
+
+Take-homes **autograde on submit** (and when a timed assessment hits its
+deadline). The clone is locked, tests run when present, Draft with AI is
+auto-applied onto the scorecard, and reviewers are emailed the weighted percent
+and notes. Reviewers can still edit. See [Grading](/assessments/grading/).
 
 ## Who can score and see scores
 
@@ -32,8 +40,11 @@ criterion (i.e. a problem has been applied).
 
 Through the [MCP server](/automation/mcp/), `score_against_rubric` returns the
 recording timeline together with the rubric and criteria, so an AI assistant can
-help an interviewer reason about a score. It provides **input** - it does not
-write the score. The final number is always the interviewer's.
+help an interviewer reason about a **live interview** score. It provides
+**input** - it does not write the score.
+
+That is separate from take-home autograde, which does write scores on the clone.
+See [Grading](/assessments/grading/).
 
 ## ATS export
 

@@ -36,9 +36,14 @@ invocations, not video. The [video call](/collaboration/video/) is live only.
 
 ## Does Typelets auto-score candidates?
 
-No. [Scoring](/interviews/scoring/) is entered by a human interviewer against the
-rubric. The MCP tools can provide input to an assistant, but the score is always
-the interviewer's.
+**Live interviews:** no. The interviewer [scores](/interviews/scoring/) against
+the rubric. MCP can help them reason about a score; it does not write one.
+
+**Take-home assessments:** yes. On submit - and when a timed assessment hits its
+deadline - Typelets [autogrades](/assessments/grading/) the clone (tests when
+present, then Draft with AI auto-applied onto the scorecard) and emails
+reviewers the weighted percent, optional test counts, and notes. Reviewers can
+edit every chip afterward. Candidates never see the rubric or the numbers.
 
 ## What can a candidate see?
 

@@ -29,10 +29,11 @@ and you review afterward.
    is recorded for you.
 5. **The assessment submits.** A timed assessment auto-submits at the deadline; a
    due-date assessment is submitted by the candidate (late submissions are
-   flagged). On submit the workspace freezes read-only.
-6. **You review and score.** Browse the submitted files, replay the recording,
-   read the AI transcript, and score against the rubric, with an AI-drafted first
-   pass if you want one. See [Reviewing
+   flagged). On submit the workspace freezes read-only, then Typelets
+   [autogrades](/assessments/grading/) in the background.
+6. **You review and edit scores.** Browse the submitted files, replay the
+   recording, read the AI transcript, and change any autograded chip you
+   disagree with. See [Reviewing
    submissions](/assessments/reviewing-submissions/) and
    [Grading](/assessments/grading/).
 
