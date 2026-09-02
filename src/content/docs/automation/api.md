@@ -10,13 +10,13 @@ a [personal access token](/automation/tokens/).
 ## Base URL and auth
 
 ```
-https://typelets.com/api
+https://app.typelets.com/api
 ```
 
 Authenticate with a Bearer PAT:
 
 ```bash
-curl https://typelets.com/api/workspaces \
+curl https://app.typelets.com/api/workspaces \
   -H "Authorization: Bearer pat_xxxxxxxx..."
 ```
 

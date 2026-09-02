@@ -53,5 +53,6 @@ workspace's Preview settings.
 ## Visibility and domains
 
 A preview can be private (only workspace members) or public (anyone with the
-link). You can give it a memorable subdomain, or point your own
-[custom domain](/hosting/custom-domains/) at it.
+link). You can give it a memorable [custom
+subdomain](/hosting/custom-subdomains/) under `preview.typelets.com`, or point
+your own [custom domain](/hosting/custom-domains/) at it.

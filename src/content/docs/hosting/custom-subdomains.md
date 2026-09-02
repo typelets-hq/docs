@@ -25,8 +25,8 @@ there is nothing to configure for HTTPS.
 - 3-32 characters.
 - Leave it blank to fall back to the workspace id.
 
-The settings panel checks availability as you type, so you know immediately if a
-slug is taken.
+**Workspace settings -> Domain** checks availability as you type, so you know
+immediately if a slug is taken.
 
 ## Subdomain vs custom domain
 
