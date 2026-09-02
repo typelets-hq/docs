@@ -52,6 +52,8 @@ at the deadline). On submit:
   what the reviewer sees is exactly what was submitted.
 - If recording was enabled, the session recording is finalized and becomes
   available for replay.
+- [Autograde](/assessments/grading/) runs in the background. The candidate still
+  never sees the rubric or scores.
 
 The candidate cannot reopen or keep editing a submitted assessment.
 

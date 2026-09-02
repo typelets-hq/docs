@@ -5,8 +5,10 @@ description: Review a candidate's submitted files, session recording, and AI tra
 
 You review every candidate from the **source** assessment. As candidates submit,
 their submissions appear in your sidebar; opening one gives you the submitted
-files, the session recording, and the AI usage transcript. The whole review
-surface is read-only: nothing you do changes what the candidate submitted.
+files, the session recording, and the AI usage transcript. File review is
+read-only: nothing you do changes what the candidate submitted. Scores are
+[autograded](/assessments/grading/) onto the clone after submit; you can edit
+those chips without changing the files.
 
 ## Browsing the submitted files
 
