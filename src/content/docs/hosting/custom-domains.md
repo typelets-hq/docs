@@ -25,7 +25,7 @@ managed for you.
 
 ## Create the DNS record
 
-The settings panel shows the exact record for your domain. It is one of:
+**Workspace settings -> Domain** shows the exact record for your domain. It is one of:
 
 - **CNAME** (for a subdomain like `app.example.com`): create a CNAME from your
   host to the target shown.
@@ -37,7 +37,7 @@ Create the record at your DNS provider exactly as displayed.
 ## Wait for verification
 
 After the DNS record propagates, the domain's status moves from pending to
-**verifying** to **active**. You can use **Check status** in the panel to
+**verifying** to **active**. You can use **Check status** on that page to
 re-poll. Certificate issuance happens automatically once the hostname verifies;
 no certificate work is needed on your side.
 
@@ -46,7 +46,7 @@ Once the status is **active**, your site is served over HTTPS at your domain.
 :::note
 DNS propagation and certificate issuance can take a few minutes. If a domain
 stays in a non-active state, double-check the record type and value against what
-the panel shows, then use **Check status** again.
+the page shows, then use **Check status** again.
 :::
 
 ## Visibility
@@ -57,5 +57,5 @@ port is reachable at the domain.
 
 ## Remove a domain
 
-Use the trash icon next to the domain in the panel. Typelets deregisters the
-hostname; remove the DNS record at your provider afterward.
+Use the trash icon next to the domain. Typelets deregisters the hostname;
+remove the DNS record at your provider afterward.

@@ -74,5 +74,5 @@ supervise the process.
 ## Limits
 
 Persistent workspaces run inside a sandboxed microVM with CPU and memory caps,
-the same as standard workspaces. The exact limits are shown in the workspace
-settings dialog.
+the same as standard workspaces. The exact limits are shown in workspace
+settings.

@@ -7,9 +7,9 @@ This walks you from an empty workspace to a live, shareable preview URL.
 
 ## 1. Create a workspace
 
-Sign in at [typelets.com](https://typelets.com), then create a workspace. You
-edit its files in the browser IDE; the files are stored durably and sync across
-everyone with access.
+Sign in at [app.typelets.com](https://app.typelets.com), then create a workspace.
+[typelets.com](https://typelets.com) is the marketing site. You edit files in
+the browser IDE; they are stored durably and sync across everyone with access.
 
 ## 2. Add your files
 
@@ -27,6 +27,8 @@ Open **Workspace settings -> Preview**. Here you set:
   this on for anything you want to keep running. See
   [Persistent preview](/hosting/persistent-preview/).
 - **Startup command** - what runs automatically when the container boots.
+- **Restart preview** - recreate the container from your stored files if the
+  app wedges or you have published new files.
 
 ## 4. Set a startup command
 
@@ -53,9 +55,11 @@ workspace terminal.
 
 ## 5. Save and open the preview
 
-Save. The container boots and your preview URL goes live. Share it directly, give
-it a [custom subdomain](/hosting/custom-domains/), or point your own domain at
-it.
+Save. The container boots and your preview URL goes live (a
+`*.preview.typelets.com` host). Share it directly, give it a [custom
+subdomain](/hosting/custom-subdomains/), or point your own [custom
+domain](/hosting/custom-domains/) at it. In **Workspace settings -> Domain** you
+can also set the preview to **Public** or keep it private.
 
 :::note
 The first load after a fresh start pays a short cold start while the container
@@ -66,4 +70,5 @@ boots and your startup command runs. Subsequent loads are warm.
 
 - [Concepts](/start/concepts/) - how it all fits together, and what is durable vs not.
 - [Host a static site](/hosting/static-site/) - the full static hosting flow.
+- [Custom subdomains](/hosting/custom-subdomains/) - a short `*.preview.typelets.com` name.
 - [Custom domains](/hosting/custom-domains/) - bring your own hostname.

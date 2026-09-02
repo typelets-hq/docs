@@ -19,7 +19,7 @@ Tokens look like `pat_` followed by a long random string.
 Send it as a Bearer token:
 
 ```bash
-curl https://typelets.com/api/workspaces \
+curl https://app.typelets.com/api/workspaces \
   -H "Authorization: Bearer pat_xxxxxxxx..."
 ```
 

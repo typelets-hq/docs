@@ -10,7 +10,8 @@ meeting link.
 ## Availability
 
 Video is a deployment-gated feature. It is available when the deployment has it
-enabled (it is on for the hosted typelets.com). When enabled, the Video tab
+enabled (it is on for the hosted product at
+[app.typelets.com](https://app.typelets.com)). When enabled, the Video tab
 appears in the workspace for members with an editing role.
 
 It is **not** available to:

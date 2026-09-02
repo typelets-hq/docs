@@ -27,10 +27,10 @@ export default defineConfig({
 				{ tag: 'link', attrs: { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' } },
 			],
 			social: [
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/typelets-com' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/typelets-hq/docs' },
 			],
 			editLink: {
-				baseUrl: 'https://github.com/typelets-com/docs/edit/main/',
+				baseUrl: 'https://github.com/typelets-hq/docs/edit/main/',
 			},
 			sidebar: [
 				{

@@ -22,9 +22,15 @@ version will not have them.
 ## Authentication
 
 The server authenticates to the Typelets API with a personal access token
-(PAT). Create one in your Typelets account settings and provide it to the server
-via its environment (for example `TYPELETS_TOKEN`). Treat the token like a
-password - it grants access to your workspaces.
+(PAT). Create one at [app.typelets.com](https://app.typelets.com) (account
+settings, **Tokens**) and provide it to the server via `TYPELETS_TOKEN`. Point
+the server at the same API the REST docs use:
+
+```
+TYPELETS_API_URL=https://app.typelets.com/api
+```
+
+Treat the token like a password - it grants access to your workspaces.
 
 ## What it can do
 
